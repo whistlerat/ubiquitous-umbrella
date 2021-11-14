@@ -1,3 +1,8 @@
+body {
+  font-family:Helvetica,Arial,sans-serif;
+  background-color:#FAEBD7;
+  color:#000;
+}
 /* cyrillic-ext */
 @font-face {
   font-family: 'Montserrat';
