@@ -4,6 +4,13 @@ body {
   color:#000;
   height: 100%;
 }
+
+.fitScreen {
+  height: 100%;
+  background-color: black;
+  background-size: cover;
+}
+
 /* cyrillic-ext */
 @font-face {
   font-family: 'Montserrat';
