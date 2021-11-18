@@ -1,0 +1,96 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+button {
+	font-family: 'Poppins', sans-serif;
+}
+header {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	height: 10vh;
+	align-items: center;
+}
+.logo-container,
+.nav-links,
+.cart {
+	display: flex;
+}
+.logo {
+	font-weight: 400;
+	margin: 5px;
+}
+.logo-container {
+	flex: 1;
+	height: 10vh;
+}
+nav {
+	flex: 2;
+}
+.nav-links {
+	justify-content: space-around;
+	list-style: none;
+}
+.nav-link {
+	color: black;
+	font-size: 18px;
+	text-decoration: none;
+}
+.cart {
+	flex: 1;
+	justify-content: flex-end;
+}
+.presentation {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
+}
+.introduction {
+	flex: 1;
+}
+.intro-text h1 {
+	font-size: 44px;
+	font-weight: 500;
+	background: linear-gradient(to right, purple, yellow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.intro-text p {
+	margin-top: 5px;
+	font-size: 22px;
+	color: lightcoral;
+}
+.cta {
+	/* trbl */
+	padding: 50px 0px 0px 0px;
+}
+.cta-select {
+	border: 2px solid purple;
+	background: transparent;
+	color: purple;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+}
+.cta-buy {
+	border: none;
+	background: purple;
+	color: white;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	margin: 0px 0px 0px 5px;
+}
+.cover {
+	flex: 1;
+}
+.cover img {
+	height: 50vh;
+}
