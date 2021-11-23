@@ -1,0 +1,89 @@
+html {
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: black;
+  color: lightgray;
+  font-size: 100%;
+}
+
+body {
+  font-weight: 300;
+  font-size: 100%;
+  font-family: Verdana, sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  margin: 2%;
+}
+h2 {
+  font-weight: 300;
+  margin: 2%;
+}
+h3 {
+  font-weight: 300;
+  margin: 2%;
+}
+h4 {
+  font-weight: 300;
+  margin: 2%;
+}
+h5 {
+  font-weight: 300;
+  margin: 2%;
+}
+h6 {
+  font-weight: 300;
+  margin: 2%;
+}
+p {
+  font-weight: 300;
+  margin: 2%;
+}
+
+.centerAlign {
+  text-align: center;
+}
+.niceButton {
+  font-size: 100%;
+  border: 1px;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: #555;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.niceButton:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Used to create two tables side by side*/
+.column {
+  float: left;
+  width: 50%;
+  height: 300px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul {
+  list-style-image: url("/ExternalFiles/cookiebullet.png");
+}
+
+li {
+  margin: 5%;
+}
+
+a{
+    color:aliceblue;
+}
