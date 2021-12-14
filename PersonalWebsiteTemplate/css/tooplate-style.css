@@ -46,23 +46,33 @@ section {
 
 #p1 {
   left: 0;
-  background-image: url(../img/home-bg.png);
-  background-repeat: no-repeat;
+  background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('../img/BG/pic1.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
   background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 #p2 {
   left: 100%;
-  background-image: url(../img/about-bg.png);
-  background-repeat: no-repeat;
+  background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('../img/BG/pic2.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #p3 {
   left: 200%;
-  background-image: url(../img/gallery-bg.png);
-  background-repeat: no-repeat;
+  background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('../img/BG/pic3.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #p4 {
@@ -201,15 +211,15 @@ a {
 
 .page#p1 .icon {
   margin-left: 10%;
-  	height: 400px;
+  	height: 500px;
 }
 
 .page#p2 .icon {
-  	height: 600px;
+  	height: 500px;
 }
 
 .page#p3 .icon {
-  	height: 700px;
+  	height: 500px;
 }
 
 .page#p4 .icon {
@@ -232,25 +242,11 @@ a {
   transform: translateX(0) !important;
 }
 
-.credit {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	text-align: center;
-	font-size: 10px;
-	font-family: 'Montserrat', sans-serif;
-}
-
-.credit a {
-	color: #fff
-}
-
-
 .primary-button a {
 	font-family: 'Montserrat', sans-serif;
 	display: inline-block;
 	padding: 15px 25px;
-	background-color: #63adcc;
+	background-color: #2e6075;
 	color: #fff;
 	font-size: 11px;
 	text-transform: uppercase;
@@ -284,7 +280,6 @@ a {
 	letter-spacing: 1px;
 	font-size: 60px;
 	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
 	font-weight: 500;
 }
 
@@ -315,15 +310,15 @@ a {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
 
 #p2 h4 {
 	letter-spacing: 1px;
-	font-size: 48px;
+	font-size: 40px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 
@@ -333,8 +328,20 @@ a {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
+
+#p3 h4 {
+	letter-spacing: 1px;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+#p3 p {
+	margin: 20px 30% 20px 30%;
+}
+
 
 #p3 .project-item {
 	margin: 15px 0px;
@@ -342,7 +349,9 @@ a {
 
 #p3 .project-item img {
 	width: 100%;
+  height: auto;
 	overflow: hidden;
+  position: relative;
 }
 
 #p3 .last-project {
